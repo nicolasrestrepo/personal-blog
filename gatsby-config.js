@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Nicolas Restrepo`,
-    author: `Kyle Mathews`,
+    author: `Nicolas Restrepo`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
@@ -9,7 +9,7 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
